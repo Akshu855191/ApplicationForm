@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <form>Full Name*
+        <br />
+        <br />
+    <input type="text" placeholder="Enter full name" name="pass" required pattern="[a-z A-z]+" />
+    <br />
+    <br />
+    
+     Email*
+     <br />
+     <br />
+    <input type="email" placeholder="Enter email" name="em" required pattern=".+@gmail\.com\" />
+    <br />
+    <br />
+    Select Cource*
+    <br />
+    <br />
+    <select name="cource" id="cource" required>
+        <option select disable>Select Cource</option>
+        <option value="1">Full Stack Web Development</option>
+        <option value="1">Advance Web Development</option>
+     </select>
+     <br />
+     <br />
+     Number* 
+     <br />
+     <br />
+     <input type="tel"  placeholder="Enter mobile number" required pattern="[0-9]{10}" />
+     <br />
+     <br />
+    
+
+     <label for="hdegree">Highest degree*</label>
+     <br />
+     <br />
+     <select name="hdegree" id="fdegree" required>
+         <option value="" selected disabled>Select highest degree</option>
+         <option value="1">B.E or B.Tech CS/IT</option>
+         <option value="2">B.E or B.Tech others</option>
+         <option value="3">M.S or M.Tech CS/IT</option>
+         <option value="4">M.S or M.Tech others</option>
+         <option value="5">BCA</option>
+         <option value="6">MCA</option>
+         <option value="7">Others</option>
+     </select>
+     <br>
+     <br>
+     <label for="yr">Year of Completion*</label>
+     <br />
+     <br />
+     <select name="yr" id="yr" required>
+         <option value="" disabled selected>Select year of completion</option>
+         <option value="1">2018</option>
+         <option value="2">2019</option>
+         <option value="3">2020</option>
+         <option value="4">2021</option>
+         <option value="5">2022</option>
+         <option value="6">2023</option>
+     </select>
+     <br />
+     <br />
+     <label for="prs">Programming skills*</label>
+     <br />
+     <br />
+     <select required name="prs" id="prs">
+         <option value="" disabled selected> Select programming skill level</option>
+         <option value="1">No coding skills</option>
+         <option value="2">Basic coding skills</option>
+         <option value="3">Intermediate coding skills</option>
+         <option value="4">Good coding skills</option>
+     </select>
+     <br>
+     <br>
+     <input type="checkbox" value="1" name="tnc" id="tnc" required> By singning up, you agree to the Terms and
+     Condintion of
+     Geekter (QuantumBit technologies Pvt. Ltd)*.
+     <br>
+     <br>
+     <input type="submit">
+
+
+    </form>
+</body>
+</html>
